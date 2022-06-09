@@ -74,28 +74,28 @@ class Google extends SocialLoginProviderBase
             ],
 
             'providers[Google][enabled]' => [
-                'label' => 'Enabled on frontend?',
+                'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_frontend',
                 'type' => 'checkbox',
-                'comment' => 'Can frontend users log in with Google?',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_enabled_front_google',
                 'default' => 'true',
                 'span' => 'left',
                 'tab' => 'Google',
             ],
 
             'providers[Google][enabledForBackend]' => [
-                'label' => 'Enabled on backend?',
+                'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_backend',
                 'type' => 'checkbox',
-                'comment' => 'Can administrators log into the backend with Google?',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_enabled_back_google',
                 'default' => 'false',
                 'span' => 'right',
                 'tab' => 'Google',
             ],
 
             'providers[Google][app_name]' => [
-                'label' => 'Application Name',
+                'label' => 'flynsarmy.sociallogin::lang.settings.application_name',
                 'type' => 'text',
                 'default' => 'Social Login',
-                'comment' => 'This appears on the Google login screen. Usually your site name.',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_application_name',
                 'tab' => 'Google',
             ],
 

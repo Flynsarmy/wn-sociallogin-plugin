@@ -35,8 +35,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Social Login',
-            'description' => 'Allows visitors to register/sign in with their social media accounts',
+            'name'        => 'flynsarmy.sociallogin::lang.plugin.name',
+            'description' => 'flynsarmy.sociallogin::lang.plugin.desc',
             'author'      => 'Flynsarmy',
             'icon'        => 'icon-users'
         ];
@@ -46,8 +46,8 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label'       => 'Social Login',
-                'description' => 'Manage Social Login providers.',
+                'label'       => 'flynsarmy.sociallogin::lang.settings.menu_label',
+                'description' => 'flynsarmy.sociallogin::lang.settings.menu_description',
                 'icon'        => 'icon-users',
                 'class'       => 'Flynsarmy\SocialLogin\Models\Settings',
                 'order'       => 600,
@@ -114,7 +114,7 @@ class Plugin extends PluginBase
 
             $widget->addFields([
                 'flynsarmy_sociallogin_providers' => [
-                    'label'   => 'Social Providers',
+                    'label'   => 'flynsarmy.sociallogin::lang.user.social_providers',
                     'type'    => 'Flynsarmy\SocialLogin\FormWidgets\LoginProviders',
                 ],
             ], 'secondary');
