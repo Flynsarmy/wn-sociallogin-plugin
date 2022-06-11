@@ -73,16 +73,16 @@ class Twitter extends SocialLoginProviderBase
             ],
 
             'providers[Twitter][enabled]' => [
-                'label' => 'Enabled on frontend?',
+                'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_frontend',
                 'type' => 'checkbox',
-                'comment' => 'Can frontend users log in with Twitter?',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_enabled_front_twitter',
                 'default' => 'true',
                 'span' => 'left',
                 'tab' => 'Twitter',
             ],
 
             //'providers[Twitter][enabledForBackend]' => [
-            //    'label' => 'Enabled on backend?',
+            //    'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_backend',
             //    'type' => 'checkbox',
             //    'comment' => 'Can administrators log into the backend with Twitter?',
             //    'default' => 'false',

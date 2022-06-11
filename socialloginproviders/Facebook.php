@@ -71,18 +71,18 @@ class Facebook extends SocialLoginProviderBase
             ],
 
             'providers[Facebook][enabled]' => [
-                'label' => 'Enabled on frontend?',
+                'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_frontend',
                 'type' => 'checkbox',
-                'comment' => 'Can frontend users log in with Facebook?',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_enabled_front_facebook',
                 'default' => 'true',
                 'span' => 'left',
                 'tab' => 'Facebook',
             ],
 
             'providers[Facebook][enabledForBackend]' => [
-                'label' => 'Enabled on backend?',
+                'label' => 'flynsarmy.sociallogin::lang.settings.enabled_on_backend',
                 'type' => 'checkbox',
-                'comment' => 'Can administrators log into the backend with Facebook?',
+                'comment' => 'flynsarmy.sociallogin::lang.settings.comment_enabled_back_facebook',
                 'default' => 'false',
                 'span' => 'right',
                 'tab' => 'Facebook',
