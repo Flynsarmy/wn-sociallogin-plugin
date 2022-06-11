@@ -14,15 +14,29 @@ The Social Login plugin for October CMS allows customers to register and log in 
 Please use the contact form [on my website](https://www.flynsarmy.com/contact/) and I'll get back to you as soon as possible. I usually respond within a few hours depending on timezone differences.
 
 ## Installation
-This plugin relies on RainLab.User, so make sure you have that installed.
+This plugin relies on Winter.User, so make sure you have that installed.
 
 Go to System - Updates and in the search field enter **Flynsarmy.SocialLogin**
+
+### Via Composer
+
+* Add repository to composer.json.
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Flynsarmy/wn-sociallogin-plugin"
+    }
+],
+```
+
+* `composer require --dev flynsarmy/wn-sociallogin-plugin "dev-master"`
 
 ## Usage
 
 * Fill in any required credentials in System - Social Login, making sure the `Enabled?` checkbox is ticked when you're done.
 * Add `User - Account` and `Social Login` components to your login page
-* Copy */plugins/rainlab/user/components/account/signin.htm* to your themes *partials/account* folder
+* Copy */plugins/winter/user/components/account/signin.htm* to your themes *partials/account* folder
 * Where you want your login links, add
 ```twig
 {% for name, link in social_login_links %}

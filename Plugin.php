@@ -8,6 +8,7 @@ use Event;
 use URL;
 use Illuminate\Foundation\AliasLoader;
 use System\Classes\PluginBase;
+use System\Classes\SettingsManager;
 use Winter\User\Models\User;
 use Winter\User\Controllers\Users as UsersController;
 use Backend\Widgets\Form;
@@ -48,6 +49,7 @@ class Plugin extends PluginBase
             'settings' => [
                 'label'       => 'flynsarmy.sociallogin::lang.settings.menu_label',
                 'description' => 'flynsarmy.sociallogin::lang.settings.menu_description',
+                'category'    => SettingsManager::CATEGORY_USERS,
                 'icon'        => 'icon-users',
                 'class'       => 'Flynsarmy\SocialLogin\Models\Settings',
                 'order'       => 600,
@@ -59,7 +61,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Flynsarmy\SocialLogin\Components\SocialLogin'       => 'sociallogin',
+            'Flynsarmy\SocialLogin\Components\SocialLogin' => 'sociallogin',
         ];
     }
 
