@@ -1,6 +1,6 @@
 # Social Login for Winter
 
-The Social Login plugin for October CMS allows customers to register and log in to your site with their Facebook, Google, Twitter and other social media accounts. The login page is completely customisable and can theme seamlessly into any October site.
+The Social Login plugin for Winter CMS allows customers to register and log in to your site with their Facebook, Google, Twitter and other social media accounts. The login page is completely customisable and can theme seamlessly into any Winter site.
 
 ## Supports
 * Twitter
