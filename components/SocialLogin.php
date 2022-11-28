@@ -15,8 +15,8 @@ class SocialLogin extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'Social Login',
-            'description' => 'Adds social_login_link($provider, $success_url, $error_url) method.'
+            'name'        => 'flynsarmy.sociallogin::lang.component.name',
+            'description' => 'flynsarmy.sociallogin::lang.component.desc'
         ];
     }
 
