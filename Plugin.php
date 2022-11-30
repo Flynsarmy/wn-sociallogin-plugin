@@ -82,6 +82,7 @@ class Plugin extends PluginBase
                     'label'      => 'Social Logins',
                     'type'       => 'partial',
                     'path'       => '~/plugins/flynsarmy/sociallogin/models/provider/_provider_column.htm',
+                    'align'      => 'center',
                     'searchable' => false
                 ]
             ]);
