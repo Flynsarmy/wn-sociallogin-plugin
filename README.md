@@ -34,7 +34,11 @@ Go to System - Updates and in the search field enter **Flynsarmy.SocialLogin**
     ],
     ```
 
-* `composer require --dev flynsarmy/wn-sociallogin-plugin "dev-master"`
+* Then run command in console:
+
+    ```bash
+    composer require --dev flynsarmy/wn-sociallogin-plugin "dev-master"
+    ```
 
 ## Usage
 
